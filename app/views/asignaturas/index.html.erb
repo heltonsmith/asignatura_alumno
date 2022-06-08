@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Asignaturas</h1>
+
+<div id="asignaturas">
+  <% @asignaturas.each do |asignatura| %>
+    <%= render asignatura %>
+    <p>
+      <%= link_to "Show this asignatura", asignatura %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New asignatura", new_asignatura_path %>

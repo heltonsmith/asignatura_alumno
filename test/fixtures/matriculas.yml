@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  asignatura: one
+  alumno: one
+  semestre: 1
+
+two:
+  asignatura: two
+  alumno: two
+  semestre: 1
